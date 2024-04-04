@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Fjell Hjemmeside</h1>
+    
+
+<style>
+
+    h1{
+        text-align: center;
+        font-size: 200%;
+    }
+
+    .button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12%;
+    }
+
+    .button-container button {
+        background-color: rgb(159, 159, 159);
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 5px;
+        width: 60%; 
+        width: 200px; 
+        height: auto; 
+        padding: 10px 20px; 
+        font-size: 1em; 
+    }
+
+    .button-container :hover{
+        background-color: #45a049;
+    }
+
+</style>
+
+
+<div class="button-container">
+    <button onclick="window.location.href='mainpage.html'">Logg Inn</button><br>
+    <button onclick="window.location.href='registration.php'">Lag bruker</button>
+</div>
+
+
+</body>
+</html>
