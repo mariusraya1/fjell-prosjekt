@@ -1,0 +1,27 @@
+body {
+    background-color: #333333;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.oprettcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.maincontainerpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
